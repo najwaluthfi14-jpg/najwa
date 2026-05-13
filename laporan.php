@@ -1,4 +1,5 @@
-<?php 
+<?php $page = basename($_SERVER['PHP_SELF']); ?>
+<?php
 include 'koneksi.php';
 // total stok
 $total_item = mysqli_num_rows(mysqli_query($conn, "SELECT id FROM products"));
@@ -357,7 +358,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a href="https://bootstrapmade.com/">Najwa Luthfi Lail Maulida</a>
     </div>
   </footer><!-- End Footer -->
 
