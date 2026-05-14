@@ -358,7 +358,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">Najwa Luthfi Lail Maulida</a>
+      Designed by <a href="https://www.instagram.com/najwaluthfii/">Najwa Luthfi Lail Maulida</a>
     </div>
   </footer><!-- End Footer -->
 
