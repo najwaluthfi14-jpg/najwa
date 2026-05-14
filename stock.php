@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
         ('$product_id', '$change_type', '$qty', '$stock_before', '$stock_after', '$note', '$user_id')
     ");
 
-    header("Location: stock.php?success=1");
+    header("Location: stok.php?success=1");
     exit;
 }
 ?>
@@ -206,7 +206,7 @@ if (isset($_POST['submit'])) {
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
           <li class="breadcrumb-item">Data Produk</li>
-          <li class="breadcrumb-item active">Manajemen Stock</li>
+          <li class="breadcrumb-item active">Manajemen Stok</li>
 
         </ol>
       </nav>
@@ -219,7 +219,7 @@ if (isset($_POST['submit'])) {
         <div class="col-lg-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Manajemen Stock</h5>
+                    <h5 class="card-title">Manajemen Stok</h5>
 
                     <form method="POST">
 
@@ -345,7 +345,7 @@ if (isset($_POST['submit'])) {
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NwaAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
