@@ -113,7 +113,7 @@ $html = '
 
 <body>
 
-<h1>Sistem Informasi Inventory Produk (SIIP)</h1>
+<h1>NwaAdmin</h1>
 <hr>
 <h3>LAPORAN STOK BARANG</h3>
 
