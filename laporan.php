@@ -223,7 +223,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
     <!-- Dashboard -->
     <li class="nav-item">
       <a class="nav-link <?= ($page == 'index.php') ? '' : 'collapsed' ?>" href="index.php">
-       <i class="bi bi-houses-fill"></i>
+       <i class="bi bi-speedometer2"></i>
         <span>Dashboard</span>
       </a>
     </li>
@@ -231,7 +231,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
     <!-- Kategori Produk -->
     <li class="nav-item">
       <a class="nav-link <?= ($page == 'kategori_produk.php') ? '' : 'collapsed' ?>" href="kategori_produk.php">
-        <i class="bi bi-bag-heart-fill"></i>
+        <i class="bi bi-tags"></i>
         <span>Kategori Produk</span>
       </a>
     </li>
@@ -239,7 +239,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
     <!-- Data Produk -->
     <li class="nav-item">
       <a class="nav-link <?= ($page == 'produk.php') ? '' : 'collapsed' ?>" href="produk.php">
-        <i class="bi bi-window-stack"></i>
+        <i class="bi bi-box-seam"></i>
         <span>Data Produk</span>
       </a>
     </li>
@@ -247,7 +247,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
     <!-- Laporan -->
     <li class="nav-item">
       <a class="nav-link <?= ($page == 'laporan.php') ? '' : 'collapsed' ?>" href="laporan.php">
-        <i class="bi bi-book"></i>
+        <i class="bi bi-bar-chart-line"></i>
         <span>Laporan</span>
       </a>
     </li>
@@ -255,7 +255,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
     <!-- Manajemen User -->
     <li class="nav-item">
       <a class="nav-link <?= ($page == 'user.php') ? '' : 'collapsed' ?>" href="user.php">
-        <i class="bi bi-person-circle"></i>
+        <i class="bi bi-people"></i>
         <span>Manajemen User</span>
       </a>
     </li>
